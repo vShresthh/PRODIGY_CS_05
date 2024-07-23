@@ -1,4 +1,4 @@
-import scapy.all as scapy # type: ignore
+import scapy.all as scapy
 
 def sniff_packets(interface):
     """Sniffs packets on the specified interface and prints packet details.
